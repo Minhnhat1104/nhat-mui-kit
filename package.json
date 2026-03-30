@@ -89,6 +89,7 @@
     "vite-plugin-dts": "^3.9.1"
   },
   "dependencies": {
+    "allotment": "^1.20.5",
     "axios": "^1.13.6",
     "jquery": "^3.7.1",
     "marked": "^15.0.12",
