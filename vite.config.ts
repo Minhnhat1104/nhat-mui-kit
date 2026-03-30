@@ -21,7 +21,7 @@ export default defineConfig({
       formats: ["es"],
       // es: import { Button } from "your-lib";
       // umd: <script src="your-lib.umd.js"></script>
-      fileName: (format) => `nhat-mui-kit.${format}.js`,
+      fileName: (format) => `minhnhat1104-mui-kit.${format}.js`,
     },
     rollupOptions: {
       external: [

@@ -1,1 +1,1 @@
-export { initHanbiroReactSDK } from './url';
+export {};

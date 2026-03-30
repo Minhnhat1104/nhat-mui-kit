@@ -1,6 +1,9 @@
 {
-  "name": "@nhat/mui-kit",
+  "name": "@minhnhat1104/mui-kit",
   "version": "1.0.0",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Shared React components and utilities for Hanbiro",
   "types": "./dist/index.d.ts",
   "main": "./dist/index.js",
