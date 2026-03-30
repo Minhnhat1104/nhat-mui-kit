@@ -1,16 +1,16 @@
-import { useTranslation } from 'react-i18next';
+
 
 import DvrIcon from '@mui/icons-material/Dvr';
 import { Box, Typography, useTheme } from '@mui/material';
 
 interface EmptySplitViewProps {
   isDivider?: boolean;
+  label?: string;
 }
 
 const EmptySplitView = (props: EmptySplitViewProps) => {
-  const { isDivider = true } = props;
+  const { isDivider = true, label = "Select an item to view" } = props;
   const theme = useTheme();
-  const { t } = useTranslation();
 
   return (
     <Box
@@ -37,7 +37,7 @@ const EmptySplitView = (props: EmptySplitViewProps) => {
       >
         <DvrIcon sx={{ width: '120px', height: '100px', fill: '#e2e2e2' }} />
         <Typography my={0} component="h5">
-          {t('common_please_select_an_item_to_view')}
+          {label}
         </Typography>
       </Box>
     </Box>

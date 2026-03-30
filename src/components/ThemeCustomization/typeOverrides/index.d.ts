@@ -41,8 +41,6 @@ declare module '@mui/material' {
 
 declare global {
   interface Window {
-    i18n: any;
-    tinymce: any;
     userDataGlobal: any;
     ace: {
       currentPage: any;

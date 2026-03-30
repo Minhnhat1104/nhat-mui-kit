@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import { X } from "react-feather";
-import { useTranslation } from "react-i18next";
 
 import { ArrowDropDown, ArrowDropUp } from "@mui/icons-material";
 import {
@@ -25,7 +24,6 @@ interface SelectBoxProps {
   size?: "small" | "medium" | undefined;
   showIcon?: boolean;
   sx?: SxProps;
-  prefixSx?: SxProps;
   disablePortal?: boolean;
   useClear?: boolean;
   placeholder?: string;
@@ -46,11 +44,10 @@ const SelectBox = (props: SelectBoxProps) => {
     options,
     size,
     sx,
-    prefixSx,
     showIcon = false,
     disablePortal = false,
     useClear = false,
-    placeholder = "whisper_select",
+    placeholder = "Select an item",
     fieldLabel = "label",
     fieldValue = "value",
     MenuProps = {},
@@ -61,7 +58,6 @@ const SelectBox = (props: SelectBoxProps) => {
     closeOnSelect = false,
   } = props;
 
-  const { t } = useTranslation("common");
   const theme = useTheme();
   const [selectedValue, setSelectedValue] = useState("");
   const [isOpen, setIsOpen] = useState<boolean>(false);
@@ -168,7 +164,7 @@ const SelectBox = (props: SelectBoxProps) => {
             variant="h5"
             fontWeight={theme.typography.fontWeightRegular}
           >
-            {t(placeholder)}
+            placeholder
           </Typography>
         );
       }} // render languageKey on view

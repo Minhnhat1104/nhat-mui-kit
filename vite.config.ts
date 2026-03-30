@@ -30,14 +30,10 @@ export default defineConfig({
         "@hanbiro/signer-core",
         "@mui/icons-material",
         "@mui/material",
-        "allotment",
-        "i18next",
         "lodash",
         "react",
         "react-dom",
         "react-feather",
-        "react-i18next",
-        "@tinymce/tinymce-react",
       ],
 
       output: {

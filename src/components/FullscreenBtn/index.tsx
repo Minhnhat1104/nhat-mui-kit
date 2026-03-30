@@ -1,9 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Maximize, Minimize } from 'react-feather';
 
-import { OpenInFull } from '@mui/icons-material';
 import { Box, SxProps, Tooltip, useTheme } from '@mui/material';
-import { t } from 'i18next';
 
 interface FullscreenBtnProps {
   fullscreenRef?: React.RefObject<HTMLDivElement>;
@@ -40,7 +38,7 @@ const FullscreenBtn = (props: FullscreenBtnProps) => {
   }, []);
 
   return (
-    <Tooltip title={t('common:common_modal_full_screen')} placement="top">
+    <Tooltip title={"Fullscreen"} placement="top">
       <Box
         onClick={(e) => {
           e.stopPropagation();

@@ -12,7 +12,6 @@ import {
 } from "@mui/material";
 
 import useLongPress from "./useLongPress";
-import { t } from "i18next";
 
 interface NumberInputProps {
   value: number;
@@ -147,7 +146,7 @@ const NumberInput: React.ForwardRefRenderFunction<
       }}
       endAdornment={
         <Stack direction="row" alignItems="center" spacing={1}>
-          {typeof endAdornment === "string" ? t(endAdornment) : endAdornment}
+          {endAdornment}
           <Stack>
             <Box
               {...increaseLongPressEvent}

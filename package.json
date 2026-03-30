@@ -1,6 +1,6 @@
 {
   "name": "@minhnhat1104/mui-kit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publishConfig": {
     "access": "public"
   },
@@ -52,45 +52,36 @@
     "dev": "vite --config playground/vite.config.ts",
     "build": "tsc -p tsconfig.build.json && vite build",
     "build:playground": "tsc && vite build --config playground/vite.config.ts",
-    "test:typescript": "export NODE_OPTIONS=--max_old_space_size=6144 && tsc --noEmit"
+    "test:typescript": "tsc --noEmit"
   },
   "peerDependencies": {
     "@emotion/react": "^11.0.0",
     "@emotion/styled": "^11.0.0",
     "@mui/icons-material": "^5.0.0",
     "@mui/material": "^5.0.0",
-    "allotment": "^1.20.0",
-    "i18next": ">=22.4.6",
     "lodash": "^4.0.0",
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0",
-    "react-feather": "^2.0.0",
-    "react-i18next": ">=12.1.1",
-    "@tinymce/tinymce-react": "^4.0.0"
+    "react-feather": "^2.0.0"
   },
   "devDependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "@mui/icons-material": "^5.14.3",
     "@mui/material": "^5.10.9",
-    "@tinymce/tinymce-react": "^4.3.2",
     "@types/jquery": "^3.5.34",
     "@types/lodash": "^4.17.24",
     "@types/node": "^20.0.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
-    "@types/tinymce": "^4.6.9",
     "@types/uuid": "^8.3.4",
     "@vitejs/plugin-react": "^4.3.4",
-    "allotment": "^1.20.5",
-    "i18next": "^22.4.6",
     "lodash": "^4.17.21",
     "react": "^18.2.0",
     "react-arborist": "^3.4.3",
     "react-dom": "^18.2.0",
     "react-error-boundary": "^6.1.1",
     "react-feather": "^2.0.10",
-    "react-i18next": "^12.1.1",
     "react-router": "^6.4.2",
     "react-router-dom": "^6.4.2",
     "typescript": "^5.5.0",

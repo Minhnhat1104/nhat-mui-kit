@@ -9,7 +9,6 @@ import {
 } from "react-feather";
 
 import { Stack, Typography } from "@mui/material";
-import { t } from "i18next";
 import { SwiperRef, useSwiper } from "swiper/react";
 
 import { IconButton } from "@mui/material";
@@ -45,16 +44,12 @@ const Toolbar = (
         <IconButton
           color="secondary"
           onClick={() => swiperRef?.current?.swiper?.zoom?.in()}
-          // tooltip
-          // tooltipProps={{ title: t("hr:hr_org_chart_zoomin") }}
         >
           <ZoomIn size={24} />
         </IconButton>
         <IconButton
           color="secondary"
           onClick={() => swiperRef?.current?.swiper?.zoom?.out()}
-          // tooltip
-          // tooltipProps={{ title: t("hr:hr_org_chart_zoomout") }}
         >
           <ZoomOut size={24} />
         </IconButton>
@@ -68,16 +63,12 @@ const Toolbar = (
             link.click();
             document.body.removeChild(link);
           }}
-          // tooltip
-          // tooltipProps={{ title: t("common:archive_downloadbtn") }}
         >
           <Download size={24} />
         </IconButton>
         <IconButton
           color="secondary"
           onClick={onClose}
-          // tooltip
-          // tooltipProps={{ title: t("common:addrbook_close_msg") }}
         >
           <X size={24} />
         </IconButton>

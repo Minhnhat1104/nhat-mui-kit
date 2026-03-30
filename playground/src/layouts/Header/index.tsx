@@ -2,8 +2,7 @@ import React, { useState } from "react";
 
 import { SearchOutlined } from "@mui/icons-material";
 import { Box, InputAdornment, TextField, useTheme } from "@mui/material";
-import { t } from "i18next";
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 interface HeaderProps {
   isLogin?: boolean;

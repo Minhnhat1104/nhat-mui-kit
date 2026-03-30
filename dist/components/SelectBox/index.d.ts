@@ -7,7 +7,6 @@ interface SelectBoxProps {
     size?: "small" | "medium" | undefined;
     showIcon?: boolean;
     sx?: SxProps;
-    prefixSx?: SxProps;
     disablePortal?: boolean;
     useClear?: boolean;
     placeholder?: string;
