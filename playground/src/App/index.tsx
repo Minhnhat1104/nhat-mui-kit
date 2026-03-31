@@ -14,7 +14,7 @@ const App = () => {
       <Suspense
         fallback={<LoadingContainer fullHeight sx={{ height: "100vh" }} />}
       >
-        <ThemeCustomization color="default">
+        <ThemeCustomization>
           <Box sx={{ width: "100vw", height: "100vh", overflowY: "auto" }}>
             {element}
           </Box>
