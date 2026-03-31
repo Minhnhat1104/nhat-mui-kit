@@ -10571,7 +10571,7 @@ export default function Button(theme: Theme): {
         variants: ({
             props: {
                 variant: string;
-                color: "primary" | "error" | "secondary" | "info" | "success" | "warning";
+                color: "primary" | "secondary" | "success" | "error" | "info" | "warning";
             };
             style: {
                 color: string;

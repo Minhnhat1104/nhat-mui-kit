@@ -1,11 +1,11 @@
 // material-ui
 // eslint-disable-next-line
-import * as Theme from '@mui/material/styles';
+import * as Theme from "@mui/material/styles";
 
 // project import
-import { CustomShadowProps } from '@base/types/theme';
+import { CustomShadowProps } from "@base/types/theme";
 
-declare module '@mui/material/styles' {
+declare module "@mui/material/styles" {
   interface Theme {
     customShadows: CustomShadowProps;
   }
@@ -16,14 +16,8 @@ declare module '@mui/material/styles' {
     lightGrey: string;
     darkGrey: string;
   }
-}
 
-declare module '@mui/material/styles/createTypography' {
-  interface TypographyOptions {
+  interface TypographyVariantsOptions {
     fontWeightSemiBold?: number;
-  }
-
-  interface Typography {
-    fontWeightSemiBold: number;
   }
 }

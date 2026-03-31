@@ -27,10 +27,8 @@ export default defineConfig({
       external: [
         "@emotion/react",
         "@emotion/styled",
-        "@hanbiro/signer-core",
         "@mui/icons-material",
         "@mui/material",
-        "lodash",
         "react",
         "react-dom",
         "react-feather",
