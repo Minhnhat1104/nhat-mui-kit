@@ -3,9 +3,7 @@ import { Theme } from '@mui/material/styles';
 export default function IconButton(theme: Theme): {
     MuiIconButton: {
         styleOverrides: {
-            root: {
-                borderRadius: number;
-            };
+            root: {};
             sizeSmall: {
                 width: number;
                 height: number;
@@ -33,6 +31,9 @@ export default function IconButton(theme: Theme): {
                     height: number;
                 };
             };
+        };
+        defaultProps: {
+            shape: string;
         };
         variants: ({
             props: {

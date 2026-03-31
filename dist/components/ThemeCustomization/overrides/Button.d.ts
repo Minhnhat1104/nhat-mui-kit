@@ -80,7 +80,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&.Mui-disabled": {
@@ -105,7 +104,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&.Mui-disabled": {
@@ -125,18 +123,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
             } | {
@@ -162,7 +152,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&.Mui-disabled": {
@@ -185,7 +174,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             };
             endIcon: {
@@ -215,7 +203,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -236,7 +223,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -252,18 +238,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -289,7 +267,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -308,7 +285,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSecondary": {
@@ -327,7 +303,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -348,7 +323,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -364,18 +338,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -401,7 +367,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -420,7 +385,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedError": {
@@ -439,7 +403,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -460,7 +423,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -476,18 +438,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -513,7 +467,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -532,7 +485,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSuccess": {
@@ -551,7 +503,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -572,7 +523,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -588,18 +538,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -625,7 +567,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -644,7 +585,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedInfo": {
@@ -663,7 +603,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -684,7 +623,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -700,18 +638,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -737,7 +667,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -756,7 +685,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedWarning": {
@@ -775,7 +703,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -796,7 +723,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -812,18 +738,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -849,7 +767,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -868,7 +785,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -894,7 +810,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -915,7 +830,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -931,18 +845,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -968,7 +874,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -987,7 +892,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSecondary": {
@@ -1006,7 +910,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1027,7 +930,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1043,18 +945,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -1080,7 +974,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1099,7 +992,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedError": {
@@ -1118,7 +1010,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1139,7 +1030,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1155,18 +1045,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -1192,7 +1074,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1211,7 +1092,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSuccess": {
@@ -1230,7 +1110,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1251,7 +1130,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1267,18 +1145,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -1304,7 +1174,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1323,7 +1192,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedInfo": {
@@ -1342,7 +1210,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1363,7 +1230,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1379,18 +1245,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -1416,7 +1274,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1435,7 +1292,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedWarning": {
@@ -1454,7 +1310,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1475,7 +1330,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1491,18 +1345,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -1528,7 +1374,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1547,7 +1392,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -1570,7 +1414,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
                 border: string;
             } | {
@@ -1590,7 +1433,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1611,7 +1453,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1627,18 +1468,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -1664,7 +1497,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1683,7 +1515,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSecondary": {
@@ -1702,7 +1533,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1723,7 +1553,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1739,18 +1568,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -1776,7 +1597,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1795,7 +1615,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedError": {
@@ -1814,7 +1633,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1835,7 +1653,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1851,18 +1668,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -1888,7 +1697,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1907,7 +1715,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSuccess": {
@@ -1926,7 +1733,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1947,7 +1753,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -1963,18 +1768,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -2000,7 +1797,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2019,7 +1815,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedInfo": {
@@ -2038,7 +1833,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2059,7 +1853,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2075,18 +1868,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -2112,7 +1897,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2131,7 +1915,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedWarning": {
@@ -2150,7 +1933,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2171,7 +1953,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2187,18 +1968,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -2224,7 +1997,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2243,7 +2015,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -2269,7 +2040,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
                 border: string;
             } | {
@@ -2289,7 +2059,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2310,7 +2079,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2326,18 +2094,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -2363,7 +2123,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2382,7 +2141,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSecondary": {
@@ -2401,7 +2159,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2422,7 +2179,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2438,18 +2194,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -2475,7 +2223,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2494,7 +2241,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedError": {
@@ -2513,7 +2259,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2534,7 +2279,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2550,18 +2294,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -2587,7 +2323,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2606,7 +2341,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSuccess": {
@@ -2625,7 +2359,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2646,7 +2379,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2662,18 +2394,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -2699,7 +2423,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2718,7 +2441,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedInfo": {
@@ -2737,7 +2459,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2758,7 +2479,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2774,18 +2494,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -2811,7 +2523,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2830,7 +2541,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedWarning": {
@@ -2849,7 +2559,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2870,7 +2579,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2886,18 +2594,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -2923,7 +2623,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -2942,7 +2641,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -2963,18 +2661,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 border: string;
@@ -2995,7 +2685,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3016,7 +2705,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3032,18 +2720,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -3069,7 +2749,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3088,7 +2767,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSecondary": {
@@ -3107,7 +2785,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3128,7 +2805,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3144,18 +2820,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -3181,7 +2849,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3200,7 +2867,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedError": {
@@ -3219,7 +2885,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3240,7 +2905,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3256,18 +2920,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -3293,7 +2949,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3312,7 +2967,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSuccess": {
@@ -3331,7 +2985,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3352,7 +3005,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3368,18 +3020,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -3405,7 +3049,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3424,7 +3067,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedInfo": {
@@ -3443,7 +3085,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3464,7 +3105,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3480,18 +3120,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -3517,7 +3149,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3536,7 +3167,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedWarning": {
@@ -3555,7 +3185,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3576,7 +3205,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3592,18 +3220,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -3629,7 +3249,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3648,7 +3267,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -3674,7 +3292,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
                 border: string;
             } | {
@@ -3694,7 +3311,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3715,7 +3331,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3731,18 +3346,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -3768,7 +3375,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3787,7 +3393,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSecondary": {
@@ -3806,7 +3411,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3827,7 +3431,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3843,18 +3446,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -3880,7 +3475,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3899,7 +3493,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedError": {
@@ -3918,7 +3511,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3939,7 +3531,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -3955,18 +3546,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -3992,7 +3575,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4011,7 +3593,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedSuccess": {
@@ -4030,7 +3611,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4051,7 +3631,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4067,18 +3646,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -4104,7 +3675,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4123,7 +3693,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedInfo": {
@@ -4142,7 +3711,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4163,7 +3731,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4179,18 +3746,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -4216,7 +3775,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4235,7 +3793,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-dashedWarning": {
@@ -4254,7 +3811,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4275,7 +3831,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4291,18 +3846,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -4328,7 +3875,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4347,7 +3893,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -4371,7 +3916,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
                 border: string;
             };
@@ -4392,7 +3936,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4413,7 +3956,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4429,18 +3971,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -4466,7 +4000,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4485,7 +4018,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSecondary": {
@@ -4504,7 +4036,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4525,7 +4056,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4541,18 +4071,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -4578,7 +4100,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4597,7 +4118,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowError": {
@@ -4616,7 +4136,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4637,7 +4156,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4653,18 +4171,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -4690,7 +4200,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4709,7 +4218,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSuccess": {
@@ -4728,7 +4236,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4749,7 +4256,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4765,18 +4271,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -4802,7 +4300,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4821,7 +4318,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowInfo": {
@@ -4840,7 +4336,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4861,7 +4356,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4877,18 +4371,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -4914,7 +4400,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4933,7 +4418,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowWarning": {
@@ -4952,7 +4436,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4973,7 +4456,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -4989,18 +4471,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -5026,7 +4500,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5045,7 +4518,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -5070,7 +4542,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5091,7 +4562,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5107,18 +4577,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -5144,7 +4606,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5163,7 +4624,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSecondary": {
@@ -5182,7 +4642,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5203,7 +4662,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5219,18 +4677,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -5256,7 +4706,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5275,7 +4724,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowError": {
@@ -5294,7 +4742,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5315,7 +4762,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5331,18 +4777,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -5368,7 +4806,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5387,7 +4824,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSuccess": {
@@ -5406,7 +4842,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5427,7 +4862,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5443,18 +4877,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -5480,7 +4906,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5499,7 +4924,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowInfo": {
@@ -5518,7 +4942,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5539,7 +4962,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5555,18 +4977,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -5592,7 +5006,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5611,7 +5024,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowWarning": {
@@ -5630,7 +5042,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5651,7 +5062,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5667,18 +5077,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -5704,7 +5106,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5723,7 +5124,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -5746,7 +5146,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&.MuiButton-shadowPrimary": {
@@ -5765,7 +5164,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5786,7 +5184,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5802,18 +5199,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -5839,7 +5228,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5858,7 +5246,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSecondary": {
@@ -5877,7 +5264,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5898,7 +5284,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5914,18 +5299,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -5951,7 +5328,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -5970,7 +5346,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowError": {
@@ -5989,7 +5364,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6010,7 +5384,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6026,18 +5399,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -6063,7 +5428,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6082,7 +5446,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSuccess": {
@@ -6101,7 +5464,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6122,7 +5484,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6138,18 +5499,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -6175,7 +5528,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6194,7 +5546,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowInfo": {
@@ -6213,7 +5564,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6234,7 +5584,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6250,18 +5599,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -6287,7 +5628,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6306,7 +5646,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowWarning": {
@@ -6325,7 +5664,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6346,7 +5684,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6362,18 +5699,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -6399,7 +5728,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6418,7 +5746,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -6444,7 +5771,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&.MuiButton-shadowPrimary": {
@@ -6463,7 +5789,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6484,7 +5809,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6500,18 +5824,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -6537,7 +5853,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6556,7 +5871,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSecondary": {
@@ -6575,7 +5889,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6596,7 +5909,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6612,18 +5924,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -6649,7 +5953,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6668,7 +5971,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowError": {
@@ -6687,7 +5989,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6708,7 +6009,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6724,18 +6024,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -6761,7 +6053,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6780,7 +6071,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSuccess": {
@@ -6799,7 +6089,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6820,7 +6109,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6836,18 +6124,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -6873,7 +6153,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6892,7 +6171,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowInfo": {
@@ -6911,7 +6189,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6932,7 +6209,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -6948,18 +6224,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -6985,7 +6253,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7004,7 +6271,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowWarning": {
@@ -7023,7 +6289,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7044,7 +6309,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7060,18 +6324,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -7097,7 +6353,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7116,7 +6371,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -7137,18 +6391,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
             } | {
@@ -7168,7 +6414,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7189,7 +6434,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7205,18 +6449,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -7242,7 +6478,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7261,7 +6496,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSecondary": {
@@ -7280,7 +6514,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7301,7 +6534,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7317,18 +6549,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -7354,7 +6578,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7373,7 +6596,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowError": {
@@ -7392,7 +6614,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7413,7 +6634,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7429,18 +6649,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -7466,7 +6678,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7485,7 +6696,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSuccess": {
@@ -7504,7 +6714,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7525,7 +6734,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7541,18 +6749,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -7578,7 +6778,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7597,7 +6796,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowInfo": {
@@ -7616,7 +6814,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7637,7 +6834,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7653,18 +6849,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -7690,7 +6878,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7709,7 +6896,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowWarning": {
@@ -7728,7 +6914,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7749,7 +6934,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7765,18 +6949,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -7802,7 +6978,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7821,7 +6996,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -7847,7 +7021,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&.MuiButton-shadowPrimary": {
@@ -7866,7 +7039,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7887,7 +7059,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7903,18 +7074,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -7940,7 +7103,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7959,7 +7121,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSecondary": {
@@ -7978,7 +7139,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -7999,7 +7159,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8015,18 +7174,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -8052,7 +7203,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8071,7 +7221,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowError": {
@@ -8090,7 +7239,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8111,7 +7259,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8127,18 +7274,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -8164,7 +7303,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8183,7 +7321,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowSuccess": {
@@ -8202,7 +7339,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8223,7 +7359,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8239,18 +7374,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -8276,7 +7403,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8295,7 +7421,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowInfo": {
@@ -8314,7 +7439,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8335,7 +7459,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8351,18 +7474,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -8388,7 +7503,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8407,7 +7521,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.MuiButton-shadowWarning": {
@@ -8426,7 +7539,6 @@ export default function Button(theme: Theme): {
                         boxShadow?: undefined;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8447,7 +7559,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         color?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8463,18 +7574,10 @@ export default function Button(theme: Theme): {
                     color: string | undefined;
                     borderColor: string;
                     backgroundColor: string;
-                    "& svg": {
-                        color: string;
-                        strokeWidth: number;
-                        transition: string;
-                    };
                     "&:hover": {
                         color: string;
                         backgroundColor: string;
                         borderColor: string;
-                        "& svg": {
-                            color: string;
-                        };
                         boxShadow?: undefined;
                     };
                     "&.Mui-disabled": {
@@ -8500,7 +7603,6 @@ export default function Button(theme: Theme): {
                         borderColor: string;
                         backgroundColor?: undefined;
                         boxShadow?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | {
                     "&::after": {
@@ -8519,7 +7621,6 @@ export default function Button(theme: Theme): {
                         backgroundColor: string;
                         boxShadow?: undefined;
                         borderColor?: undefined;
-                        "& svg"?: undefined;
                     };
                 } | undefined;
                 "&.Mui-disabled": {
@@ -8543,7 +7644,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             };
             containedPrimary: {
@@ -8562,7 +7662,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8583,7 +7682,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8599,18 +7697,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -8636,7 +7726,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8655,7 +7744,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             containedSecondary: {
@@ -8674,7 +7762,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8695,7 +7782,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8711,18 +7797,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -8748,7 +7826,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8767,7 +7844,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             containedError: {
@@ -8786,7 +7862,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8807,7 +7882,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8823,18 +7897,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -8860,7 +7926,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8879,7 +7944,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             containedSuccess: {
@@ -8898,7 +7962,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8919,7 +7982,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8935,18 +7997,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -8972,7 +8026,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -8991,7 +8044,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             containedInfo: {
@@ -9010,7 +8062,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9031,7 +8082,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9047,18 +8097,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -9084,7 +8126,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9103,7 +8144,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             containedWarning: {
@@ -9122,7 +8162,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9143,7 +8182,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9159,18 +8197,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -9196,7 +8226,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9215,7 +8244,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             outlinedPrimary: {
@@ -9234,7 +8262,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9255,7 +8282,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9271,18 +8297,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -9308,7 +8326,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9327,7 +8344,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             outlinedSecondary: {
@@ -9346,7 +8362,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9367,7 +8382,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9383,18 +8397,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -9420,7 +8426,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9439,7 +8444,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             outlinedError: {
@@ -9458,7 +8462,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9479,7 +8482,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9495,18 +8497,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -9532,7 +8526,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9551,7 +8544,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             outlinedSuccess: {
@@ -9570,7 +8562,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9591,7 +8582,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9607,18 +8597,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -9644,7 +8626,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9663,7 +8644,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             outlinedInfo: {
@@ -9682,7 +8662,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9703,7 +8682,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9719,18 +8697,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -9756,7 +8726,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9775,7 +8744,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             outlinedWarning: {
@@ -9794,7 +8762,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9815,7 +8782,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9831,18 +8797,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -9868,7 +8826,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9887,7 +8844,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             textPrimary: {
@@ -9906,7 +8862,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9927,7 +8882,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9943,18 +8897,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -9980,7 +8926,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -9999,7 +8944,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             textSecondary: {
@@ -10018,7 +8962,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10039,7 +8982,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10055,18 +8997,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -10092,7 +9026,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10111,7 +9044,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             textError: {
@@ -10130,7 +9062,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10151,7 +9082,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10167,18 +9097,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -10204,7 +9126,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10223,7 +9144,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             textSuccess: {
@@ -10242,7 +9162,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10263,7 +9182,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10279,18 +9197,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -10316,7 +9226,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10335,7 +9244,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             textInfo: {
@@ -10354,7 +9262,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10375,7 +9282,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10391,18 +9297,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -10428,7 +9326,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10447,7 +9344,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             textWarning: {
@@ -10466,7 +9362,6 @@ export default function Button(theme: Theme): {
                     boxShadow?: undefined;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10487,7 +9382,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     color?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10503,18 +9397,10 @@ export default function Button(theme: Theme): {
                 color: string | undefined;
                 borderColor: string;
                 backgroundColor: string;
-                "& svg": {
-                    color: string;
-                    strokeWidth: number;
-                    transition: string;
-                };
                 "&:hover": {
                     color: string;
                     backgroundColor: string;
                     borderColor: string;
-                    "& svg": {
-                        color: string;
-                    };
                     boxShadow?: undefined;
                 };
                 "&.Mui-disabled": {
@@ -10540,7 +9426,6 @@ export default function Button(theme: Theme): {
                     borderColor: string;
                     backgroundColor?: undefined;
                     boxShadow?: undefined;
-                    "& svg"?: undefined;
                 };
             } | {
                 "&::after": {
@@ -10559,7 +9444,6 @@ export default function Button(theme: Theme): {
                     backgroundColor: string;
                     boxShadow?: undefined;
                     borderColor?: undefined;
-                    "& svg"?: undefined;
                 };
             } | undefined;
             sizeExtraSmall: {

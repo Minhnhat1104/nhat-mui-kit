@@ -96,6 +96,12 @@ export const sidebarItems: NavItem[] = [
             type: "leaf",
             url: "/pages/elements/tooltip-overflow-text",
           },
+          {
+            label: "Button",
+            id: "button",
+            type: "leaf",
+            url: "/pages/elements/button",
+          },
         ],
       },
     ],

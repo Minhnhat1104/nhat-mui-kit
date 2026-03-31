@@ -1,5 +1,4 @@
 import { TypographyVariantsOptions } from '@mui/material/styles';
-import { ThemeSetting } from './types/themeSetting';
 
-declare const Typography: (data: ThemeSetting | null) => TypographyVariantsOptions;
+declare const Typography: () => TypographyVariantsOptions;
 export default Typography;

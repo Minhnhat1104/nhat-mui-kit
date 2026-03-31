@@ -12,7 +12,7 @@ export default function IconButton(theme: Theme) {
     MuiIconButton: {
       styleOverrides: {
         root: {
-          borderRadius: 4,
+          // borderRadius: 4,
         },
         sizeSmall: {
           width: 32,
@@ -41,6 +41,9 @@ export default function IconButton(theme: Theme) {
             height: 18,
           },
         },
+      },
+      defaultProps: {
+        shape: "rounded",
       },
       variants: [
         {

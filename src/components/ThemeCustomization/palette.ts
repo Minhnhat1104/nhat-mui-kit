@@ -1,19 +1,19 @@
 import ThemeOption from "./theme";
-import { ThemeSetting } from "./types/themeSetting";
 
 // ==============================|| DEFAULT THEME - PALETTE  ||============================== //
 
-const Palette = (data: ThemeSetting | null) => {
-  const paletteColor = ThemeOption(data);
+const Palette = (mode: "light" | "dark" = "light") => {
+  const paletteColor = ThemeOption(mode);
 
   return {
+    mode,
     common: {
       black: "#000",
       white: "#fff",
     },
     ...paletteColor,
     action: {
-      disabled: data?.colors?.text?.secondary,
+      disabled: paletteColor?.text?.disabled,
     },
   };
 };

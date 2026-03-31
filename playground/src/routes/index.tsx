@@ -22,6 +22,7 @@ const OutlinedSelectPage = lazy(
 const ToolltipOverflowTextPage = lazy(
   () => import("@playground/pages/ToolltipOverflowTextPage"),
 );
+const ButtonPage = lazy(() => import("@playground/pages/ButtonPage"));
 
 const publicRoutes: RouteObject[] = [
   {
@@ -65,6 +66,10 @@ const publicRoutes: RouteObject[] = [
           {
             path: "tooltip-overflow-text",
             element: <ToolltipOverflowTextPage />,
+          },
+          {
+            path: "button",
+            element: <ButtonPage />,
           },
         ],
       },

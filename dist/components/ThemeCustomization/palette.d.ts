@@ -1,6 +1,4 @@
-import { ThemeSetting } from './types/themeSetting';
-
-declare const Palette: (data: ThemeSetting | null) => {
+declare const Palette: (mode?: "light" | "dark") => {
     action: {
         disabled: string | undefined;
     };
@@ -41,6 +39,7 @@ declare const Palette: (data: ThemeSetting | null) => {
         main: string;
         dark: string;
     };
+    mode: "dark" | "light";
     common: {
         black: string;
         white: string;

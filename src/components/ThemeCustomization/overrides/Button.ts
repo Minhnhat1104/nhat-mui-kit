@@ -72,21 +72,10 @@ function getColorStyle({ variant, color, theme }: ButtonStyleProps) {
         borderColor: color === "secondary" ? theme.palette.border.main : main,
         backgroundColor:
           color === "secondary" ? theme.palette.common.white : "transparent",
-        "& svg": {
-          color: "currentColor",
-          strokeWidth: 2,
-          transition: "color 0.5s",
-        },
         "&:hover": {
-          color: color === "secondary" ? theme.palette.grey.dark : dark,
-          backgroundColor:
-            color === "secondary"
-              ? theme.palette.background.lightGrey
-              : "transparent",
-          borderColor: color === "secondary" ? theme.palette.grey.dark : dark,
-          "& svg": {
-            color: "currentColor",
-          },
+          color: dark,
+          backgroundColor: "transparent",
+          borderColor: dark,
         },
         "&.Mui-disabled": {
           border: `1px solid ${lighter}`,

@@ -13,10 +13,9 @@ import componentsOverride from "./overrides";
 import Palette from "./palette";
 import CustomShadows from "./shadows";
 import Typography from "./typography";
-import themes from "./themeLoader";
 
 interface ThemeCustomizationProps {
-  color: string;
+  mode?: "light" | "dark";
   children: ReactNode;
 }
 
@@ -31,11 +30,9 @@ export const paletteColors: Color[] = [
   "info",
 ];
 
-const ThemeCustomization = ({ color, children }: ThemeCustomizationProps) => {
-  const themeSetting = themes[color] || themes["default"];
-
+const ThemeCustomization = ({ mode = "light", children }: ThemeCustomizationProps) => {
   const themeValue = useMemo<Theme>(() => {
-    const themePallete: PaletteOptions = Palette(themeSetting);
+    const themePallete: PaletteOptions = Palette(mode);
 
     const themes: Theme = createTheme({
       breakpoints: {
@@ -57,7 +54,7 @@ const ThemeCustomization = ({ color, children }: ThemeCustomizationProps) => {
       },
       palette: themePallete,
       customShadows: CustomShadows(themePallete),
-      typography: Typography(themeSetting),
+      typography: Typography(),
       border: {
         dark: `1px solid ${themePallete?.border?.dark}`,
         main: `1px solid ${themePallete?.border?.main}`,
@@ -67,7 +64,7 @@ const ThemeCustomization = ({ color, children }: ThemeCustomizationProps) => {
     themes.components = componentsOverride(themes);
 
     return themes;
-  }, [themeSetting]);
+  }, [mode]);
 
   return (
     <StyledEngineProvider injectFirst>
