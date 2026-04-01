@@ -13,15 +13,14 @@ import componentsOverride from "./overrides";
 import Palette from "./palette";
 import CustomShadows from "./shadows";
 import Typography from "./typography";
+import { PalleteColor } from "./types/theme";
 
 interface ThemeCustomizationProps {
   mode?: "light" | "dark";
   children: ReactNode;
 }
 
-type Color = "primary" | "secondary" | "success" | "error" | "info" | "warning";
-
-export const paletteColors: Color[] = [
+export const palleteColors: PalleteColor[] = [
   "primary",
   "secondary",
   "success",
@@ -30,7 +29,10 @@ export const paletteColors: Color[] = [
   "info",
 ];
 
-const ThemeCustomization = ({ mode = "light", children }: ThemeCustomizationProps) => {
+const ThemeCustomization = ({
+  mode = "light",
+  children,
+}: ThemeCustomizationProps) => {
   const themeValue = useMemo<Theme>(() => {
     const themePallete: PaletteOptions = Palette(mode);
 

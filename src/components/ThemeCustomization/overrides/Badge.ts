@@ -1,55 +1,16 @@
 // material-ui
-import { Theme } from "@mui/material/styles";
+import { alpha, Theme } from '@mui/material/styles';
 
-import { ExtendedStyleProps } from "../types/extended";
-import getColors from "@src/utils/getColors";
-
-// ==============================|| BADGE - COLORS ||============================== //
-
-function getColorStyle({ color, theme }: ExtendedStyleProps) {
-  const colors = getColors(theme, color);
-  const { lighter, main } = colors;
-
-  return {
-    color: main,
-    backgroundColor: lighter,
-  };
-}
-
-// ==============================|| OVERRIDES - BADGE ||============================== //
-
-export default function Badge(theme: Theme) {
-  const defaultLightBadge = getColorStyle({ color: "primary", theme });
-
+export default function ThemeBadge(theme: Theme) {
   return {
     MuiBadge: {
-      defaultProps: {
-        variant: "light",
-        max: Infinity,
-      },
       styleOverrides: {
-        standard: {
-          minWidth: theme.spacing(2),
-          height: theme.spacing(2),
-          padding: theme.spacing(0.5),
-        },
-        light: {
-          ...defaultLightBadge,
-          "&.MuiBadge-colorPrimary": getColorStyle({ color: "primary", theme }),
-          "&.MuiBadge-colorSecondary": getColorStyle({
-            color: "secondary",
-            theme,
-          }),
-          "&.MuiBadge-colorError": getColorStyle({ color: "error", theme }),
-          "&.MuiBadge-colorInfo": getColorStyle({ color: "info", theme }),
-          "&.MuiBadge-colorSuccess": getColorStyle({ color: "success", theme }),
-          "&.MuiBadge-colorWarning": getColorStyle({ color: "warning", theme }),
-        },
         badge: {
-          height: 16,
-          minWidth: 16,
-          fontSize: 9,
-          padding: 4,
+          width: 15,
+          height: 15,
+          minWidth: 0,
+          fontSize: 10,
+          p: '2px 4px',
         },
       },
     },

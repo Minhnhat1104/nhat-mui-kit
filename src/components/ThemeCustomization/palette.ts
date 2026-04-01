@@ -2,7 +2,7 @@ import ThemeOption from "./theme";
 
 // ==============================|| DEFAULT THEME - PALETTE  ||============================== //
 
-const Palette = (mode: "light" | "dark" = "light") => {
+const Palette = (mode: "light" | "dark") => {
   const paletteColor = ThemeOption(mode);
 
   return {

@@ -1,8 +1,8 @@
 import { PaletteThemeProps } from "../types/theme";
-import DashForge from "./dashforge";
+import MuiColor from "./MuiColor";
 
-const Theme = (mode: "light" | "dark" = "light"): PaletteThemeProps => {
-  return DashForge(mode);
+const Theme = (mode: "light" | "dark"): PaletteThemeProps => {
+  return MuiColor(mode);
 };
 
 export default Theme;
