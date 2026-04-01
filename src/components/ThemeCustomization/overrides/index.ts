@@ -1,14 +1,15 @@
-import { type Theme } from '@mui/material/styles';
-import { merge } from 'lodash';
+import { type Theme } from "@mui/material/styles";
+import { merge } from "lodash";
 
 // project import
-import ThemeAlert from './Alert';
-import ThemeBadge from './Badge';
-import ThemeButton from './Button';
-import ThemeChip from './Chip';
-import ThemeMuiListItemButton from './ListItemButton';
-import ThemeTable from './Table';
-import ThemeTextField from './TextField';
+import ThemeAlert from "./Alert";
+import ThemeBadge from "./Badge";
+import ThemeButton from "./Button";
+import ThemeChip from "./Chip";
+import ThemeMuiListItemButton from "./ListItemButton";
+import ThemeTable from "./Table";
+import ThemeTextField from "./TextField";
+import ThemeIconButton from "./IconButton";
 
 // ==============================|| OVERRIDES - MAIN ||============================== //
 
@@ -19,7 +20,8 @@ export default function ComponentsOverrides(theme: Theme) {
     ThemeBadge(theme),
     ThemeTextField(theme),
     ThemeChip(theme),
+    ThemeIconButton(theme),
     ThemeMuiListItemButton(theme),
-    ThemeTable(theme)
+    ThemeTable(theme),
   );
 }

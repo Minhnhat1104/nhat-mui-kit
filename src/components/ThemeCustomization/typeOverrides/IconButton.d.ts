@@ -1,9 +1,8 @@
 import "@mui/material/IconButton";
-import { MuiVariant } from "../theme";
 
 declare module "@mui/material/IconButton" {
   interface IconButtonOwnProps {
-    variant?: MuiVariant;
+    variant?: "dashed" | "shadow" | "light" | "contained" | "outlined";
     shape?: "rounded" | "square";
   }
 }
