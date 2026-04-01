@@ -1,9 +1,0 @@
-export { default as CircularProgressWithLabel } from './CircularProgressWithLabel';
-export { default as Counter } from './Counter';
-export { default as LoadingContainer } from './LoadingContainer';
-export { default as NumberInput } from './NumberInput';
-export { default as SelectBox } from './SelectBox';
-export { default as SplitView } from './SplitView';
-export { default as SwiperModal } from './SwiperModal';
-export { default as ThemeCustomization } from './ThemeCustomization';
-export { default as ToolltipOverflowText } from './ToolltipOverflowText';
