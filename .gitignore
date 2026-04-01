@@ -6,3 +6,4 @@ tmp
 yarn-error.log
 playground/dist
 playground/tmp
+dist
