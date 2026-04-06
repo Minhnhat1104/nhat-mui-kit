@@ -19,9 +19,10 @@ const LoadingContainer = (props: LoadingContainerProps) => {
 
   return (
     <Box
-      alignItems="center"
-      justifyContent="center"
       sx={{
+        display: 'flex',
+        alignItems: "center",
+        justifyContent: "center",
         height: fullHeight ? "100%" : 350,
         ...sx,
       }}
