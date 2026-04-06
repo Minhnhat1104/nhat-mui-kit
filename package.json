@@ -27,7 +27,8 @@
       "types": "./dist/constants/index.d.ts",
       "import": "./dist/constants/index.js",
       "require": "./dist/constants/index.js"
-    }
+    },
+    "./style.css": "./dist/style.css"
   },
   "typesVersions": {
     "*": {

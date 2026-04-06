@@ -20,14 +20,19 @@ yarn add @minhnhat1104/mui-kit
 
 > [!IMPORTANT]
 > Wrap your root component with `<ThemeCustomization>` for correct styling.
+> You must also import the bundled stylesheet to load fonts (Roboto) and component styles correctly.
 
 ```tsx
 import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 
+// 1. Import the bundled stylesheet (required for fonts & styles)
+import "@minhnhat1104/mui-kit/style.css";
+
 import { ThemeCustomization } from "@minhnhat1104/mui-kit/components";
-// 1. Render the application
+
+// 2. Render the application
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
     <ThemeCustomization>
