@@ -1,7 +1,5 @@
 import { useEffect, useState } from "react";
-import { X } from "react-feather";
-
-import { ArrowDropDown, ArrowDropUp } from "@mui/icons-material";
+import { ArrowDropDown, ArrowDropUp, Close } from "@mui/icons-material";
 import {
   CircularProgress,
   IconButton,
@@ -190,7 +188,7 @@ const SelectBox = (props: SelectBoxProps) => {
                 variant="light"
                 color="secondary"
               >
-                <X />
+                <Close />
               </IconButton>
             )}
 

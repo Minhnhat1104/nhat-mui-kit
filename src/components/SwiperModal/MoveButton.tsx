@@ -1,6 +1,5 @@
+import { ChevronLeftOutlined, ChevronRightOutlined } from "@mui/icons-material";
 import { IconButton } from "@mui/material";
-import React from "react";
-import { ChevronLeft, ChevronRight } from "react-feather";
 
 import { useSwiper } from "swiper/react";
 
@@ -24,9 +23,11 @@ const MoveButton = ({ type }: MoveButtonProps) => {
         zIndex: 1,
         transform: "translateY(-100%)",
       }}
+      color="secondary"
+      variant="light"
     >
-      {type === "prev" && <ChevronLeft />}
-      {type === "next" && <ChevronRight />}
+      {type === "prev" && <ChevronLeftOutlined />}
+      {type === "next" && <ChevronRightOutlined />}
     </IconButton>
   );
 };

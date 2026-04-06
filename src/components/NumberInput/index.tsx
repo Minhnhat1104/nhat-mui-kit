@@ -1,6 +1,5 @@
 import * as React from "react";
 import { forwardRef, useState } from "react";
-import { ChevronDown, ChevronUp } from "react-feather";
 
 import {
   Box,
@@ -12,6 +11,7 @@ import {
 } from "@mui/material";
 
 import useLongPress from "./useLongPress";
+import { ExpandLess, ExpandMore } from "@mui/icons-material";
 
 interface NumberInputProps {
   value: number;
@@ -171,7 +171,7 @@ const NumberInput: React.ForwardRefRenderFunction<
                 },
               }}
             >
-              <ChevronUp size={12} style={{ margin: "auto", flexShrink: 0 }} />
+              <ExpandLess sx={{ fontSize: 12, margin: "auto", flexShrink: 0 }} />
             </Box>
             <Box
               {...decreaseLongPressEvent}
@@ -195,9 +195,8 @@ const NumberInput: React.ForwardRefRenderFunction<
                 },
               }}
             >
-              <ChevronDown
-                size={12}
-                style={{ margin: "auto", flexShrink: 0 }}
+              <ExpandMore
+                sx={{ fontSize: 12, margin: "auto", flexShrink: 0 }}
               />
             </Box>
           </Stack>

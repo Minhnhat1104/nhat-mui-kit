@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Stack, Typography, Box } from "@mui/material";
-import { Calendar } from "react-feather";
-
 import OutlinedSelect from "@src/components/OutlinedSelect";
+import { CalendarMonth, CalendarMonthOutlined } from "@mui/icons-material";
 
 const OutlinedSelectPage = () => {
   const [value, setValue] = useState<string>("Option 1");
@@ -16,7 +15,7 @@ const OutlinedSelectPage = () => {
           <OutlinedSelect
             value={value}
             placeholder="Select an option"
-            onClick={() => {}}
+            onClick={() => { }}
             onClear={() => setValue("")}
             open={false}
           />
@@ -25,7 +24,7 @@ const OutlinedSelectPage = () => {
           <OutlinedSelect
             value={arrayValue}
             placeholder="Select tags"
-            onClick={() => {}}
+            onClick={() => { }}
             onClear={() => setArrayValue([])}
             open={false}
           />
@@ -34,8 +33,8 @@ const OutlinedSelectPage = () => {
           <OutlinedSelect
             value={"Filtered Date"}
             placeholder="Select tags"
-            onClick={() => {}}
-            endIcon={Calendar}
+            onClick={() => { }}
+            endIcon={CalendarMonthOutlined}
             disabled={true}
           />
         </Stack>

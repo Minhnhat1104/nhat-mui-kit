@@ -1,7 +1,5 @@
 import React, { forwardRef } from "react";
-import { Icon, X } from "react-feather";
-
-import { ArrowDropDown, ArrowDropUp } from "@mui/icons-material";
+import { ArrowDropDown, ArrowDropUp, Close } from "@mui/icons-material";
 import {
   IconButton,
   InputAdornment,
@@ -17,7 +15,7 @@ interface OutlinedSelectProps {
   placeholder: string;
   onClick: () => void;
   onClear?: () => void;
-  endIcon?: Icon; // used in Date Fitler
+  endIcon?: React.ElementType; // used in Date Fitler
   disabled?: boolean;
   id?: string;
 }
@@ -102,12 +100,12 @@ const OutlinedSelect = (props: OutlinedSelectProps, ref: any) => {
               onClear();
             }}
           >
-            <X />
+            <Close />
           </IconButton>
         )}
         {EndIcon ? (
           <InputAdornment position="end" sx={{ pr: 0.5 }}>
-            <EndIcon size={20} />
+            <EndIcon sx={{ fontSize: 20 }} />
           </InputAdornment>
         ) : (
           showArrowIcon &&

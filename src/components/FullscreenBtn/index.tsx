@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Maximize, Minimize } from 'react-feather';
+import { CloseFullscreenOutlined, Maximize, MaximizeOutlined, Minimize, MinimizeOutlined, OpenInFullOutlined } from '@mui/icons-material';
 
 import { Box, SxProps, Tooltip, useTheme } from '@mui/material';
 
@@ -66,9 +66,9 @@ const FullscreenBtn = (props: FullscreenBtnProps) => {
         }}
       >
         {isFullscreen ? (
-          <Minimize size={16} style={{ color: 'inherit', margin: 'auto', fontSize: 16 }} />
+          <CloseFullscreenOutlined sx={{ color: 'inherit', margin: 'auto', fontSize: 16 }} />
         ) : (
-          <Maximize size={16} style={{ color: 'inherit', margin: 'auto', fontSize: 16 }} />
+          <OpenInFullOutlined sx={{ color: 'inherit', margin: 'auto', fontSize: 16 }} />
         )}
       </Box>
     </Tooltip>

@@ -62,9 +62,7 @@ export default function ThemeIconButton(theme: Theme) {
       },
       defaultProps: {
         shape: "square" as const,
-        "& svg": {
-          fontSize: "inherit",
-        },
+        size: "medium",
       },
       variants: [...customIconButtonVariants, ...customButtonVariants(theme)],
     },

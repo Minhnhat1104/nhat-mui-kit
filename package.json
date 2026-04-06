@@ -59,9 +59,7 @@
     "@emotion/styled": "^11.0.0",
     "@mui/icons-material": "^7.0.0",
     "@mui/material": "^7.0.0",
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "react-feather": "^2.0.0"
+    "react": "^18.0.0"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.24",
@@ -75,20 +73,18 @@
     "react-arborist": "^3.4.3",
     "react-dom": "^18.2.0",
     "react-error-boundary": "^6.1.1",
-    "react-feather": "^2.0.10",
     "react-router": "^6.4.2",
     "react-router-dom": "^6.4.2",
     "typescript": "^5.5.0",
     "vite": "^5.4.0",
-    "vite-plugin-dts": "^3.9.1"
+    "vite-plugin-dts": "^3.9.1",
+    "use-resize-observer": "^9.1.0"
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.1",
     "@mui/material": "^7.3.9",
     "allotment": "^1.20.5",
-    "swiper": "^12.0.2",
-    "use-resize-observer": "^9.1.0",
-    "uuid": "^9.0.0"
+    "swiper": "^12.0.2"
   }
 }

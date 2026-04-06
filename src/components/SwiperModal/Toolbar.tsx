@@ -1,17 +1,10 @@
 import React, { forwardRef, RefObject } from "react";
-import {
-  ChevronLeft,
-  ChevronRight,
-  Download,
-  X,
-  ZoomIn,
-  ZoomOut,
-} from "react-feather";
 
 import { Stack, Typography } from "@mui/material";
 import { SwiperRef, useSwiper } from "swiper/react";
 
 import { IconButton } from "@mui/material";
+import { CloseOutlined, DownloadOutlined, ZoomInOutlined, ZoomOutOutlined } from "@mui/icons-material";
 
 interface ToolbarProps {
   swiperRef: RefObject<SwiperRef>;
@@ -38,22 +31,25 @@ const Toolbar = (
       justifyContent="space-between"
       sx={{ background: "#000", px: 2, height: 68, width: 1 }}
     >
-      <Typography variant="h3">{`${current} / ${total}`}</Typography>
+      <Typography variant="h4">{`${current} / ${total}`}</Typography>
 
       <Stack direction="row" alignItems="center" spacing={1}>
         <IconButton
+          size="large"
           color="secondary"
           onClick={() => swiperRef?.current?.swiper?.zoom?.in()}
         >
-          <ZoomIn size={24} />
+          <ZoomInOutlined />
         </IconButton>
         <IconButton
+          size="large"
           color="secondary"
           onClick={() => swiperRef?.current?.swiper?.zoom?.out()}
         >
-          <ZoomOut size={24} />
+          <ZoomOutOutlined />
         </IconButton>
         <IconButton
+          size="large"
           color="secondary"
           onClick={() => {
             const link = document.createElement("a");
@@ -64,13 +60,14 @@ const Toolbar = (
             document.body.removeChild(link);
           }}
         >
-          <Download size={24} />
+          <DownloadOutlined />
         </IconButton>
         <IconButton
+          size="large"
           color="secondary"
           onClick={onClose}
         >
-          <X size={24} />
+          <CloseOutlined />
         </IconButton>
       </Stack>
     </Stack>

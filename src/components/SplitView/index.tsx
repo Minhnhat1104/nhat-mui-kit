@@ -1,8 +1,7 @@
-import React, { useRef } from "react";
+import React, { useRef, useId } from "react";
 
 import { Box, SxProps, useTheme } from "@mui/material";
 import { Allotment, AllotmentHandle } from "allotment";
-import { v4 } from "uuid";
 import "allotment/dist/style.css";
 
 export const SPLIT_MAX_SIZE = 500;
@@ -38,7 +37,7 @@ const SplitView = (props: SplitViewProps) => {
   const theme = useTheme();
 
   const allotmentRef = useRef<AllotmentHandle>(null);
-  const splitIdRef = useRef<string>(v4());
+  const id = useId();
 
   //  ------------ make config ------------
   let hideLeft = false;
@@ -65,7 +64,7 @@ const SplitView = (props: SplitViewProps) => {
         sx={{
           width: "100%",
           height: "100%",
-          [`& #allotment-${splitIdRef.current.toString()} > .sash-container`]: {
+          [`& #allotment-${id} > .sash-container`]: {
             display: isSplitMode ? "block" : "none",
           },
         }}
@@ -73,7 +72,7 @@ const SplitView = (props: SplitViewProps) => {
         <Allotment
           ref={allotmentRef}
           onDragEnd={onDragEnd}
-          id={`allotment-${splitIdRef.current}`}
+          id={`allotment-${id}`}
           separator={isSplitMode}
         >
           <Allotment.Pane

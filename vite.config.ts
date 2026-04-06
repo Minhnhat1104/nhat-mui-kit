@@ -31,7 +31,6 @@ export default defineConfig({
         "@mui/material",
         "react",
         "react-dom",
-        "react-feather",
       ],
 
       output: {
