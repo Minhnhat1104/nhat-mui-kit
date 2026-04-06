@@ -19,6 +19,7 @@ interface NumberInputProps {
   min?: number;
   max?: number;
   endAdornment?: string | React.ReactNode;
+  size?: 'small' | 'medium',
   sx?: SxProps;
 }
 
@@ -32,6 +33,7 @@ const NumberInput: React.ForwardRefRenderFunction<
     min = 0,
     max = 999999999999999,
     endAdornment,
+    size = "medium",
     sx,
   } = props;
   // exceed default max will make number error (Javascript will introduce rounding errors due to limitations in floating-point precision.)
@@ -131,6 +133,7 @@ const NumberInput: React.ForwardRefRenderFunction<
 
   return (
     <OutlinedInput
+      size={size}
       value={number}
       onChange={(e) => {
         const nVal: any = Number(e?.target?.value);

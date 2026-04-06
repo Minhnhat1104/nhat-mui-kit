@@ -15,6 +15,11 @@ import CustomShadows from "./shadows";
 import Typography from "./typography";
 import { PalleteColor } from "./types/theme";
 
+import '@fontsource/roboto/300.css';
+import '@fontsource/roboto/400.css';
+import '@fontsource/roboto/500.css';
+import '@fontsource/roboto/700.css';
+
 interface ThemeCustomizationProps {
   mode?: "light" | "dark";
   children: ReactNode;

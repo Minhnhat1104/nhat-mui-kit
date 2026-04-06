@@ -19,7 +19,7 @@ export default defineConfig(({ mode }) => {
     server: {
       port: 5173,
       fs: {
-        allow: [path.resolve(__dirname), path.resolve(__dirname, "../src")],
+        allow: [path.resolve(__dirname), path.resolve(__dirname, "../src"), path.resolve(__dirname, "../node_modules")],
       },
     },
   };

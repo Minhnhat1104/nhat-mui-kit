@@ -2,7 +2,7 @@ import { TypographyVariantsOptions } from "@mui/material/styles";
 
 const Typography = (): TypographyVariantsOptions => ({
   htmlFontSize: 16,
-  fontFamily: `NotoSansKR, 'IBM Plex Sans', sans-serif`,
+  fontFamily: `'Roboto', sans-serif`,
   fontWeightLight: 300,
   fontWeightRegular: 400,
   fontWeightMedium: 500,

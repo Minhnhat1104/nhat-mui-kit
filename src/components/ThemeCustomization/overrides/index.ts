@@ -10,6 +10,7 @@ import ThemeMuiListItemButton from "./ListItemButton";
 import ThemeTable from "./Table";
 import ThemeTextField from "./TextField";
 import ThemeIconButton from "./IconButton";
+import ThemeTypography from "./Typography";
 
 // ==============================|| OVERRIDES - MAIN ||============================== //
 
@@ -23,5 +24,6 @@ export default function ComponentsOverrides(theme: Theme) {
     ThemeIconButton(theme),
     ThemeMuiListItemButton(theme),
     ThemeTable(theme),
+    ThemeTypography(theme),
   );
 }
